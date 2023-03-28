@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HeaderComponent } from 'src/includes/header/header.component';
+import { PromiseComponent } from 'src/promise/promise.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,7 +10,8 @@ import { HeaderComponent } from './includes/header/header.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    PromiseComponent
   ],
   imports: [
     BrowserModule,
