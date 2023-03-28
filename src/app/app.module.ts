@@ -5,6 +5,7 @@ import { PromiseComponent } from 'src/promise/promise.component';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HeaderComponent } from './includes/header/header.component';
 
 @NgModule({
   declarations: [
